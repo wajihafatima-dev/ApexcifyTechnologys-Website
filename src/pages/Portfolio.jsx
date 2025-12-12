@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion as Motion, AnimatePresence } from "framer-motion";
-import { ThumbnailWithFallback } from '../hooks/ThumbnailWithFallback';
+import { ThumbnailWithFallback } from '../components/ThumbnailWithFallback';
 
 const projects = [
   {
