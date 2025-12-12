@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { motion as Motion, AnimatePresence } from "framer-motion";
-import { X, ExternalLink, Github } from 'lucide-react';
 import { ThumbnailWithFallback } from '../hooks/ThumbnailWithFallback';
 
 const projects = [

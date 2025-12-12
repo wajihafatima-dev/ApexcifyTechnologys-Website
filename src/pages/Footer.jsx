@@ -1,5 +1,4 @@
 import { Github, Linkedin, Twitter, Facebook } from 'lucide-react';
-
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -20,7 +19,6 @@ export function Footer() {
     <footer className="bg-slate-950 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
-          {/* Brand */}
           <div className="lg:col-span-2">
             <div className="mb-4">
               <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
@@ -44,7 +42,6 @@ export function Footer() {
               ))}
             </div>
           </div>
-
           {/* Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
@@ -64,7 +61,6 @@ export function Footer() {
             </div>
           ))}
         </div>
-
         {/* Bottom bar */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">

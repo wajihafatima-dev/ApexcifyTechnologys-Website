@@ -1,6 +1,6 @@
 import { motion as Motion } from "framer-motion";
 import { Code2, Smartphone, Cloud, Brain, Palette, Shield } from 'lucide-react';
-import { useScrollReveal } from '../hooks/useScrollReveal'; // path adjust karo
+import { useScrollReveal } from '../hooks/useScrollReveal'; 
 
 const services = [
   {

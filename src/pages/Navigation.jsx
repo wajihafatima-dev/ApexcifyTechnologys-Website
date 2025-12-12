@@ -45,7 +45,6 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('home')}
@@ -58,7 +57,6 @@ export function Navigation() {
             </button>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link) => (
@@ -73,8 +71,6 @@ export function Navigation() {
               ))}
             </div>
           </div>
-
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -85,8 +81,6 @@ export function Navigation() {
           </div>
         </div>
       </div>
-
-      {/* Mobile Navigation */}
       <div
         className={`md:hidden transition-all duration-300 ease-in-out ${
           isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'

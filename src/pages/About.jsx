@@ -34,12 +34,8 @@ export function About() {
   return (
     <section id="about" className="py-24 bg-slate-950 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-50"></div>
-
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl"></div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Header Section */}
         <Motion.div
           ref={aboutRef}
           initial={{ opacity: 0, y: 30 }}
@@ -55,8 +51,6 @@ export function About() {
             businesses through technology.
           </p>
         </Motion.div>
-
-        {/* Company Story */}
         <div className="grid md:grid-cols-2 gap-12 mb-20">
           
           <Motion.div
@@ -109,8 +103,6 @@ export function About() {
             </div>
           </Motion.div>
         </div>
-
-        {/* Core Values */}
         <Motion.div
           ref={valuesRef}
           initial={{ opacity: 0, y: 30 }}
@@ -140,8 +132,6 @@ export function About() {
             ))}
           </div>
         </Motion.div>
-
-        {/* Team Section */}
         <Motion.div
           ref={teamRef}
           initial={{ opacity: 0, y: 30 }}

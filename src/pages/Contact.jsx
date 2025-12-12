@@ -9,14 +9,12 @@ export function Contact() {
     subject: '',
     message: '',
   });
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     alert('Thank you for your message! We will get back to you soon.');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -49,10 +47,7 @@ export function Contact() {
     <section id="contact" className="py-24 bg-gradient-to-b from-slate-900 to-slate-950 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-pink-500 to-transparent opacity-50"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-500/5 rounded-full blur-3xl"></div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        {/* Heading */}
         <Motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -67,10 +62,7 @@ export function Contact() {
             Have a project in mind? Let's discuss how we can help transform your ideas into reality.
           </p>
         </Motion.div>
-
         <div className="grid lg:grid-cols-3 gap-12">
-
-          {/* Contact Info */}
           <Motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -100,8 +92,6 @@ export function Contact() {
               </div>
             </div>
           </Motion.div>
-
-          {/* Contact Form */}
           <Motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -164,7 +154,6 @@ export function Contact() {
                     placeholder="Tell us about your project..."
                   />
                 </div>
-
                 <button
                   type="submit"
                   className="group w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-4 rounded-lg hover:shadow-lg hover:shadow-pink-500/30 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
@@ -175,7 +164,6 @@ export function Contact() {
               </form>
             </div>
           </Motion.div>
-
         </div>
       </div>
     </section>
