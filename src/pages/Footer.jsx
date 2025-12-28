@@ -22,7 +22,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="mb-4">
               <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                Apexcify
+                Apex
               </span>{' '}
               <span className="text-white">Technologies</span>
             </div>

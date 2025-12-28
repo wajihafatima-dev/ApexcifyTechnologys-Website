@@ -51,7 +51,7 @@ export function Navigation() {
               className="text-white hover:text-blue-400 transition-colors duration-300"
             >
               <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                Apexcify
+                Apex
               </span>{' '}
               <span className="text-white">Technologies</span>
             </button>
