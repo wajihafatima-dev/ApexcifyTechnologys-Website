@@ -44,7 +44,7 @@ export function About() {
           className="text-center mb-16"
         >
           <h2 className="text-white mb-4">
-            About <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Apexcify Technologies</span>
+            About <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Apex Technologies</span>
           </h2>
           <p className="text-gray-400 max-w-3xl mx-auto text-lg">
             We are a team of passionate developers, designers, and innovators dedicated to transforming 

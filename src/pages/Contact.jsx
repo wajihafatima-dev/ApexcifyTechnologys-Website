@@ -26,7 +26,7 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      content: 'hello@apexcify.tech',
+      content: 'hello@email.tech',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
